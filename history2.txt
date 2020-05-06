@@ -1,0 +1,406 @@
+    1  ls
+    2  /cita/local/bin/passwd
+    3  exit
+    4  cheese
+    5  exit
+    6  whomai
+    7  whoami
+    8  pwd
+    9  cd /
+   10  cd / 
+   11  ls
+   12  ls -la
+   13  cd
+   14  pwd
+   15  ls
+   16  ls-la
+   17  ls -la
+   18  cd / home/cta200
+   19  cd /mnt/scratch
+   20  cd /mnt/scr
+   21  cd /mnt/scratch-lustre/
+   22  ls
+   23  cd /mnt/scratch-lustre/student04
+   24  pwd
+   25  ..
+   26  cd ..
+   27  pwd
+   28  cd .
+   29  pwd
+   30  cd .mnt/sscratch-lucture/student04
+   31  cd /mnt/scratch-lustre/student04
+   32  ls
+   33  cd /home/cta200
+   34  pwd
+   35  ls
+   36  cd Documents
+   37  pwd
+   38  ls
+   39  cd ..
+   40  pwd
+   41  cd Res
+   42  cd Research/
+   43  ls
+   44  ls -l
+   45  cd gauss2d/
+   46  ls
+   47  ls -l
+   48  cp gauss2d.cc ~/
+   49  cd 
+   50  ls
+   51  mv gauss2d.cc /mnt/scratch-lustre/
+   52  ls 
+   53  cd /mnt/
+   54  ls
+   55  cd
+   56  cd 
+   57  pwd
+   58  mkdir /mnt/scratch-lustre/ptulsi/gauss2d
+   59  ls
+   60  cd /mnt/scratch-lustre/ptulsi/gauss2d
+   61  pwd
+   62  cp -av /home/ptulsi/gauss2d.cc /mnt/scratch-lustre/ptulsi/gauss2d
+   63  cd /home/ptulsi
+   64  pwd
+   65  ls
+   66  cd /mnt/scratch-lustre/ptulsi/gauss2d
+   67  ls
+   68  ls >junk
+   69  ls > junk
+   70  ls
+   71  rm /home/ptulsi/gauss2d/cc
+   72  rm /home/ptulsi/gauss2d.cc
+   73  /home/ptulsi
+   74  cd /home/ptulsi
+   75  ls
+   76  cd /mnt/scratch-lustrue/ptulsi/gauss2d
+   77  cd /mnt/scratch-lustre/ptulsi/gauss2d
+   78  pwd
+   79  ls
+   80  rm junk
+   81  ls
+   82  g++ gauss2d.cc
+   83  ls -lt
+   84  ./gauss2d > data.txt
+   85  pwd
+   86  ls
+   87  ./plot.py data.txt
+   88  module load python/2.7.12
+   89  less gauss2d.cc
+   90  mnt/scratch-lustre/ptulsi/gauss2d
+   91  cd /mnt/scratch-lustre/ptulsi/gauss2d
+   92  pwd
+   93  ls
+   94  less gauss2d.cc
+   95  vim plot.py
+   96  gedit plot.py
+   97  module load python/2.7.12
+   98  module avail
+   99  module avail gcc
+  100  module load gcc/5.4.0
+  101  module load python/2.7.12
+  102  ./script.py
+  103  pwd
+  104  /plot.py data.txt
+  105  data.txt
+  106  o data.txt
+  107  vim plot.py
+  108  diff a.out gauss2d
+  109  ls
+  110  ls -la
+  111  cd /home/cta200
+  112  pwd
+  113  ls
+  114  ls - la
+  115  ls -la
+  116  cd Research
+  117  pwd
+  118  ls
+  119  /home/cta200
+  120  cd ...
+  121  cd ..
+  122  pwd
+  123  /ls
+  124  ls
+  125  Documents
+  126  cd Documents
+  127  ls
+  128  pwd
+  129  ls
+  130  cd ..
+  131  ls Downloads
+  132  cd Desktop
+  133  pwd
+  134  ls
+  135  cd ..
+  136  cd Public
+  137  pwd
+  138  ls
+  139  cd /home/ptulsi
+  140  pwd
+  141  ls
+  142  cd Documents
+  143  ls
+  144  cd ..
+  145  /mnt/scratch-lustre/ptulsi/gauss2d
+  146  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  147  ls
+  148  pwd
+  149  ls -la
+  150  cd /home/cta200
+  151  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/ptulsi/gauss2d
+  152  cd /mnt/scratch-lustre/gauss2d
+  153  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  154  ls
+  155  cd gauss2d
+  156  ls
+  157  cp plot.py /mnt/scratch-lustre/ptulsi/gauss2d
+  158  /mnt/scratch-lustre/ptulsi/gauss2d
+  159  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  160  ls
+  161  rm gauss2d
+  162  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  163  pwd
+  164  ls
+  165  ./plot.py data.txt
+  166  module load gcc/5.4.0
+  167  module load python/2.7.12
+  168  ./plot.py data.txt
+  169  more data.txt
+  170  ls -la
+  171  pwd
+  172  rm -rf gauss2d
+  173  ls -la
+  174  ./a.out
+  175  ./a.out > data.txt
+  176  ls -la
+  177  ./plot.py data.txt
+  178  head gauss2d.cc
+  179  head a.out
+  180  gauss2d.cc
+  181  ./gauss2d.cc
+  182  ls -la
+  183  chmod +x gauss2d.cc
+  184  ls -la
+  185  ./gauss2d.cc
+  186  cd ~
+  187  pwd
+  188  mkdir repos
+  189  cd repos
+  190  pwd
+  191  mkdir -p gauss2d.git
+  192  cd gauss2d.git
+  193  pwd
+  194  cd ..
+  195  pwd
+  196  cd `
+  197  exit
+  198  qiu
+  199  q
+  200  gauss2d.git/
+  201  q:!
+  202  q:
+  203  pwd
+  204  rm -rf repos
+  205  pwd
+  206  ls -la
+  207  git config --global user.name "Parasar Thulasiram"
+  208  git config --global user.email p.thulasiram@mail.utoronto.ca
+  209  cd ~
+  210  pwd
+  211  mkdir -p repos
+  212  cd repos
+  213  pwd
+  214  cd ~
+  215  mkdir -p repos/gauss2d.git
+  216  cd repos/gauss2d.git
+  217  pwd
+  218  git init --bare
+  219  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  220  git init
+  221  echo "*.o" > .gitignore
+  222  git add gauss2d.cc Makefile plot.py .gitignore
+  223  ls -la
+  224  pushd /mnt/scratch-lustre/ptulsi/gauss2d
+  225  pwd
+  226  git add gauss2d.cc Makefile plot.py .gitignore
+  227  pwd
+  228  ls -la
+  229  cd ~
+  230  repos
+  231  cd repos
+  232  ls -la
+  233  cd gauss2d.git
+  234  -ls
+  235  ls -la
+  236  pushd
+  237  pwd
+  238  ls -la
+  239  rm .git
+  240  rm -rf .git
+  241  rm -rf .gitignore
+  242  ls -la
+  243  git init
+  244  echo "*.o" > .gitignore
+  245  ls -la
+  246  git add gauss2d.cc Makefile plot.py .gitignore
+  247  pwd
+  248  history
+  249  history | grep git
+  250  ls -la
+  251  rm -rf .git
+  252  rm -rf .gitignore
+  253  ls -la
+  254  pushd
+  255  ls -la
+  256  pwd
+  257  ls -la
+  258  git init --bare
+  259  pushd
+  260  pwd
+  261  pushd
+  262  pwd
+  263  rm -rf repos
+  264  cd ~
+  265  ls
+  266  cd repos
+  267  pwd
+  268  ls
+  269  mkdir -p repos/cta200.git
+  270  ls
+  271  cd..
+  272  cd ..
+  273  pwd
+  274  ls
+  275  cd repos
+  276  ls
+  277  rm -rf repos
+  278  ls
+  279  mkdir -p cta200.git
+  280  ls
+  281  rm -rf cta200.git
+  282  ls
+  283  mkdir -p cta200
+  284  ls
+  285  rm -rf cta200
+  286  cd /mnt/scratch-lustre/ptulsi
+  287  pwd
+  288  ls
+  289  mkdir -p cta200
+  290  ls
+  291  cd cta200
+  292  ls
+  293  pwd
+  294  git init
+  295  echo "*.o" > .gitignore
+  296  ls
+  297  ls -la
+  298  git remote add origin https://github.com/pthulasi/CTA200.git
+  299  cat .git/config
+  300  pwd
+  301  git push --set-upstream origin master
+  302  git remote set-url origin https://pthulasi@github.com/pthulasi/CTA200.git
+  303  git remote -v
+  304  git push --set-upstream origin master
+  305  git push -u origin master
+  306  echo "# CTA200" >> README.md
+  307  git add README.md
+  308  ls
+  309  cat README.md
+  310* echo "Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+[A
+:q
+
+
+  311  ls
+  312  echo "Copyright 2020 Parasar Thulasiram
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." >> LICENSE.md
+  313  git add LICENSE.md
+  314  ls
+  315  cat LICENSE.md
+  316  git commit -m "first commit"
+  317  cp -av https://cta200@github.com/cta200/CTA200H.git/assignment1_2020/main.c /mnt/scratch-lustre/ptulsi/cta200
+  318  cp -av https://cta200@github.com/cta200/CTA200H.git/assignment1_2020 /mnt/scratch-lustre/ptulsi/cta200
+  319  pushd /mnt/scratch-lustre/ptulsi/cta200
+  320  cd ~
+  321  ls
+  322  Downloads
+  323  cd Downloads
+  324  ls
+  325  unzip CTA200H-master (1).zip
+  326  unzip CTA200H-master(1).zip
+  327  ls
+  328  pwd
+  329  cd CTA200H-master.zip
+  330  unzip CTA200H-master.zip
+  331  ls
+  332  cd CTA200H-master
+  333  ls
+  334  cd assignment1_2020
+  335  ls
+  336  cp average.c pushd
+  337  cp average.h pushd
+  338  pushd
+  339  pwd
+  340  ls
+  341  pushd
+  342  pwd
+  343  ls
+  344  cp -av average.c /mnt/scratch-lustre/ptulsi/cta200
+  345  cp -av main.c /mnt/scratch-lustre/ptulsi/cta200
+  346  cp -av average.h /mnt/scratch-lustre/ptulsi/cta200
+  347  pushd
+  348  ls
+  349  cd /mnt/scratch-lustre/ptulsi/gauss2d
+  350  ls
+  351  cat Makefile
+  352  vim
+  353  vim Makefile
+  354  cp Makefile makefile
+  355  vim makefile
+  356  cat makefile
+  357  ls
+  358  mv makefile /mnt/scratch-lustre/ptulsi/cta200
+  359  pushd
+  360  pwd
+  361  pushd
+  362  pwd
+  363  pushd
+  364  pwd
+  365  pushd /mnt/scratch-lustre/ptulsi/cta200
+  366  pwd
+  367  ls
+  368  make -f makefile
+  369  module load gcc/5.4.0
+  370  make -f makefile
+  371  g++ main.c -o main
+  372  cat main.c
+  373  g++ average.c -o average
+  374  cat
+  375  cat average.c
+  376  cd ~murray
+  377  cd CTA200
+  378  ls
+  379  cd cta200h_2020
+  380  ls
+  381  cd CTA200H
+  382  ls
+  383  cd sandbox
+  384  ls
+  385  cp makefile /home/ptulsi/Documnets
+  386  cp -av makefile /home/ptulsi/Documents
+  387  cd ~
+  388  cd Documents
+  389  ls
+  390  cat makefile
+  391  history
+  392  history > history2.txt
