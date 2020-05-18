@@ -30,14 +30,14 @@ ntime = int((wrap_time+dd_duration)/dt)
 nchan = 1024
 npol = 2
 
-#Opening single file
+#Opening single file and seeing data details
 fh = vdif.open(file, 'rs', sample_rate = sample_rate)
 print(fh.info())
 
 #Creating a list of file to be synthesized.
 filenames = sorted(glob.glob('/scratch/p/pen/hsiuhsil/daily_vdif_aro/B0531+21/81949485/*.vdif'))
 
-#Synthesizing files
+#Synthesizing files and opening contiguous.
 fraw = sf.open(filenames, 'rb')
 fh2 = vdif.open(fraw, 'rs', sample_rate = sample_rate)
 
