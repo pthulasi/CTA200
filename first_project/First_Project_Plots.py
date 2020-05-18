@@ -48,17 +48,6 @@ def rebin(matrix, xbin, ybin):
     return np.nanmean(np.reshape(matrix[:shape1*xbin,:shape2*ybin],(shape1,xbin,shape2,ybin)),axis=(1,3))
 
 
-# #### Plot style
-
-# In[5]:
-
-
-font = {'family' : 'Times',
-        'size'   : 20}
-
-matplotlib.rc('font', **font)
-
-
 # #### General plot parameters
 
 # In[19]:
