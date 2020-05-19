@@ -125,20 +125,25 @@ The final step was to plot the data in two ways: using a waterfall plot - colour
   \centering
   \includegraphics[width=1.0\textwidth]{ts_500ms.pdf}
   \caption{A time-series plot of the coherently de-dispersed, filtered intensity data with a duration of 500 ms. The main peak located at approximately 291.6 ms is a giant pulse.}
+  \label{fig:ts}
 \end{figure}
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{wf_3ms.pdf}
-  \caption{A waterfall plot of the coherently de-dispersed, filtered intensity data with a duration of 3 ms. There are 1.56 MHz per frequency bin and 25.6 $\mu$s per time bin}
+  \caption{A waterfall plot of the coherently de-dispersed, filtered intensity data with a duration of 3 ms. There are 1.56 MHz per frequency bin and 25.6 $\mu$s per time bin.}
+  \label{fig:wf1}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{wf_400mis.pdf}
+  \includegraphics[width=0.9\textwidth]{wf_0.4ms.pdf}
   \caption{A waterfall plot of the coherently de-dispersed, filtered intensity data with a duration of 0.4 ms. There are 1.56 MHz per frequency bin and 25.6 $\mu$s per time bin.}
+  \label{fig:wf2}
 \end{figure}
-
+\\
 \section{Conclusion}
-In conclusion, the analysis successfully detected a clear peak at $\sim 291.6$ ms. This peak is significantly brighter than the peak at $\sim 41$ ms, which is also a giant pulse. We can be certain about this since the sensitivity of the telescope used is low due to its small dish size, meaning that only bright pulses are detectable \cite{2012hpa..book.....L}. Consistent brightness is observable at $\sim 460$ MHz, which could indicate RFI.
+Figure \ref{fig:ts} shows an intensity vs time plot of the pulse data, showing a peak at $\sim 41$ ms and $\sim 291$ ms. Figure \ref{fig:wf1} shows the brighter peak with more clarity, showing that it was a peak in intensity for most of the bandwidth. Figure $\ref{fig:wf2}$ is a more detailed waterfall plot of the same pulse.
+
+In conclusion, the analysis successfully detected a clear, very bright peak at $\sim 291.6$ ms. This peak is significantly brighter than the peak at $\sim 41$ ms, which is also a giant pulse. We can be certain about this since the sensitivity of the telescope used is low due to its small dish size, meaning that only bright pulses are detectable \cite{2012hpa..book.....L}. Moreover, giant pulses follow a power law distribution, meaning that some giant pulses are brighter than others \cite{2019MNRAS.490L..12B}. In figure \ref{fig:wf1}, consistent brightness is observable at $\sim 460$ MHz, which could indicate RFI.
 
 \printbibliography
 
